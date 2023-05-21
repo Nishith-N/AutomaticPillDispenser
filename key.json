@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pilldispenser-93b2c",
+  "private_key_id": "451fb78195a8744459bc54b107847bc8c5f3c771",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC55cj7jb+UoDsg\nvtjTeaCNe3Nb2BABseyXtTF6WGp2WeNfTbUFf1jA1zU+l9PY5nZqA8iNRO/PaFLr\nTw++llUdfC0woqV0U1xgvwZ/xorLigIopIe9bU/pwlfBJWEV6j7GZ5o6Ph6jBmTz\n8i9Py3s6sJ7Y5Fe9ABn0xYLQQEGYE0PPtn95X0sD1YZ2YgbrLp+3DEdMuFjJggpt\nGEAwuGwdHqRsbRF8ZyRSW5pjTG9FqDIjI6TdpU4TrU5xhv7IzTjouUXpHtvKB8QB\ncnR0jo7n3b6MGnYyxRUxczjWJUxXt3c4BhKKUOkANCxveMbFeOLYOCpHw+klNSDz\nOxJ0/Z2XAgMBAAECggEAGmVSr3KwzvrIH93ZeIBfAsKSXmqEg1PEmMSv/Nj3F6JV\n0womolwzDwFqhwkUmfTHavA/QYfrVpOlSnzpwGck43s8CMQ0zW//avaqMT8mJWvi\n40B8IbKW0/C2Iy/FOaZkOX8r0An9XFVOb7EQyg9w36Qv5J4vsx+Dj/+c6ShmkqAo\n9fRSa6VfKDDuo7HY2WQuEag6qNBVMm1ljH0JjY7oFf3ISbeeakO6l6pqSSBEsl1h\nHdR5MR5xuf7zLLYB2BXec7JRrH7YDAp+RgNZ9IRYx4TdE/TGQgikrdTVfkLafFrB\nSeCeBYLiiJ9kbjVXmPVqLXuk57lZluHB/9K0QLmLcQKBgQDlbuzP+yziArWCZJ9p\nQ8nKT8caDw4MtYxSFcGNIY+jGTP8qpB9f65eXU2FTF2wNlzTRH3hJv/TkxPIJ1NK\nxQGiz4BE1TZgEzN4B/0l7IG0D1s57MWd8fSQF5dn+yt6worCFR4/uTh0/crsksu4\n4T3meDXkbmQdNYp171pkbmmKDwKBgQDPbFWVHu0I+oUqhTv8FJSrkvwZ5BL7aBQg\n62HLR3zGM/GZN9rnzfgM7CjspzU7bLwqy+WbEJGTGkVdzeWmn7+0nCsAI2s0oZX1\nmNpe4p+hrJq15eFvE/588ei1i1x3v03ptYl+fE2AJ6lwMvjqB0TP96Pwa4mhglwC\nvPSfXo1b+QKBgDp10DuSebZBEHTgJMpSrokxWL8oFOFiJRYJWx8V7R6W3mtEHrsL\nnKeIyKbtdXXf9DkU26pSIJ+Ne13lv1Bu8GLG0p03YrqKSfQMvRE7uTTjMNCKpzP+\nod1RVY/2LPcDuQ2JCgMcs+kDfgBXyzcZlYczHDBPfI0Axn4UdgjfJV87AoGAe9rn\ne4Sc61iT/aDTAaHUaGL7MAaVIxOxuTp0CarlIYDQybmld/bwH99ATJdHXPV/olpf\n/ui01E7CjtGsSINpOFJsBsgfcqzt21nrQu81fJeRRf4/T1F0C21zlDvj+gj8YAor\nUKCuslB8h2eYZD304+2uMZg09YDeqi/kLemKpRkCgYBIvfdnfZJg8LRfIfWGLjUf\n52CkFjOBKb/sSN5XUAjZdlncgTx5PRW+UoKNSbOizT9HuPjiulUDB38GUDiGXNE5\nG+IiS2jvRmwvP5Xt6rdjYNL+RHlk11l7UuTR0fb+k9buG8+prGZdGJaUTCbyFg6C\nBviyoe/5KpEVtoQZb82ncA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-gsois@pilldispenser-93b2c.iam.gserviceaccount.com",
+  "client_id": "107339511348986940084",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-gsois%40pilldispenser-93b2c.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
