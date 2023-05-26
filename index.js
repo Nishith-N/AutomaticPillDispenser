@@ -99,8 +99,8 @@ app.post('/api/add/medDetails', (req, res) => {
 });
 
 // Get all medicine Records for a user
-app.get("/api/medDetails/:id", (req, res) => {
-  const { id } = req.params;
+app.post("/api/medDetails", (req, res) => {
+  const { phoneid } = req.body;
   console.log("Inside get medicine");
   console.log(req.body);
   const collectionRef = db.collection("medicineDetails");
@@ -111,8 +111,9 @@ app.get("/api/medDetails/:id", (req, res) => {
       snapshot.forEach((doc) => {
         documents.push({ id: doc.id, ...doc.data() });
       });
-      const filteredData = documents.filter((obj) => obj.phone === id);
-      res.status(200).send(filteredData);
+      const filteredData = documents.filter((obj) => obj.phone === phoneid);
+      const data = {data : filteredData}
+      res.status(200).send(data);
     })
     .catch((error) => {
       console.error("Error getting documents:", error);
