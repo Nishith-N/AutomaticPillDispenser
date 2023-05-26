@@ -46,7 +46,9 @@ app.post('/api/createuser', (req, res) => {
 });
 
 // Get a User
-app.get('/api/user', (req, res) => {
+app.post('/api/user', (req, res) => {
+  console.log("Inside login")
+  console.log(req.body)
   const phone = req.body.phone
   const pass = req.body.pass
   let status = 500
@@ -64,12 +66,13 @@ app.get('/api/user', (req, res) => {
      {
        if (filteredData[0].pass === pass) {
         status = 200
-        response = filteredData;
+        response = filteredData[0];
        }
      }
      else{
       response.Error = "Phone not Found";
      }
+     console.log(status)
      res.status(status).send(response);
    })
    .catch((error) => {
@@ -81,6 +84,8 @@ app.get('/api/user', (req, res) => {
 // Create medicine Record
 app.post('/api/add/medDetails', (req, res) => {
   const data = req.body;
+  console.log("Inside Create Medicine");
+  console.log(req.body);
   const collectionRef = db.collection("medicineDetails");
   collectionRef
     .add(data)
@@ -96,6 +101,8 @@ app.post('/api/add/medDetails', (req, res) => {
 // Get all medicine Records for a user
 app.get("/api/medDetails/:id", (req, res) => {
   const { id } = req.params;
+  console.log("Inside get medicine");
+  console.log(req.body);
   const collectionRef = db.collection("medicineDetails");
   collectionRef
     .get()
